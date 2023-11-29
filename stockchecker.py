@@ -47,4 +47,4 @@ def get_stock():
 
 if __name__ == "__main__":
     if get_stock() > 0:
-        send_announcments(f"IN STOCK https://aodour.pk/brand/the-ordinary/1", user_id)
+        send_announcments("IN STOCK https://aodour.pk/brand/the-ordinary/1", user_id)
